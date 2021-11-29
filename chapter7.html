@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    nav{
+        display: grid;
+        background-color: black;
+        height: 10vh;
+        color: white;
+        justify-content: center;
+        align-content: center;
+        font-size: 3vh;
+        align-items: center;
+    }
+    li{
+        display: inline;
+    }
+   
+    .container{
+        display: grid;
+        background-color: aqua;
+        
+        grid-row-gap:  340px;
+        grid-column-gap: 340px;
+        
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-content: space-around;
+        height: 50vh;
+       
+        
+    }
+    .items{
+        background-color: red;
+       
+    }
+    .items2{
+        background-color: blue;
+    }
+    @media only screen and (max-width:800px) {
+
+        body{
+            background: red;
+        }
+    }
+    @media only screen and (max-width:600px) {
+
+        body{
+            background: yellow;
+        }
+    }
+
+</style>
+<body>
+    <HEADer>
+         <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </HEADer>
+    <div class="container">
+        <div class="items">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio velit, optio laudantium minus animi odit aliquid aliquam quasi, sint cumque iusto nihil laborum itaque illo, quo nam. Laudantium, tempora autem?
+        </div>
+        <div class="items2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure explicabo minus eveniet atque! Animi, fugit ipsum! Pariatur sequi magni corporis, doloremque dolorem debitis, incidunt laborum est perferendis quam veritatis!
+        </div>
+    </div>
+
+</body>
+</html>

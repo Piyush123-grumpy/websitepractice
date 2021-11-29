@@ -1,0 +1,103 @@
+body{
+    display: flex;
+}
+.outerbatta{
+    display: flex;
+    
+}
+h1{
+    font-weight: normal;
+    margin: 0%;
+    padding-left: 4%;
+    color: #95a0b2;
+}
+#imej{
+    width: 58vw;
+    height: 96vh;
+}
+.login_box{
+    display: inline;
+    width: 40vw;
+    height: 96vh;
+    padding-left: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,52,89,1) 37%, rgba(0,212,255,1) 100%);
+}
+#acc_info{
+    font-size: 14px;
+    color: #95a0b2;
+    padding-left: 4%;
+}
+#email{
+    color: #95a0b2;
+    padding-left: 4%;
+}
+.Password{
+    color: #95a0b2;
+    float: left;
+    width: 33%;
+    padding-left: 4%;
+    margin: 10px 0;
+    
+}
+.Password p{
+    word-break: break-all;
+    padding-left: 4%;
+}
+
+#dont{
+    color: #95a0b2;
+    padding-left: 4%;
+}
+#lang{
+    color: #95a0b2;
+    padding-left: 4%;
+}
+.login_box input[type="text"],input[type="password"]{
+    height: 30px;
+    font-size: 16px;
+    width: 295px;
+    color: black;
+    position: relative;
+    left: 21px;
+    padding-left: 2%;
+    
+    
+}
+button{
+    display: block;
+    position: relative;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,88,89,1) 28%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    width: 250px;
+    top: 7px;
+    height: 40px;
+    margin-top: 10px;
+    left: 54px;
+    text-align: center;
+}
+ul{
+    position: relative;
+    
+    top: 40px;
+    padding-left: 4%;
+}
+ul li{
+    display: inline;
+    color: #95a0b2;
+    
+}
+.avatar{
+    margin: 0px 0px 0px 0px;
+    padding:0px;
+    width: 150px;
+    height: 100px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:whitesmoke;
+    
+}
