@@ -50,12 +50,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,52,89,1) 37%, rgba
     padding-left: 4%;
 }
 .login_box input[type="text"],input[type="password"]{
+    display: block;
     height: 30px;
     font-size: 16px;
     width: 295px;
     color: black;
     position: relative;
-    left: 21px;
+    left: 17px;
     padding-left: 2%;
     
     
@@ -256,7 +257,7 @@ ul li{
     .login_box input[type="text"],input[type="password"]{
         height: 30px;
         font-size: 16px;
-        width: 284px;
+        width: 295px;
         color: black;
         position: relative;
         left: 5px;
@@ -409,7 +410,7 @@ ul li{
 
 }
 
-}
+
 @media only screen and (max-height:400px){
     body{
         display: flex;
@@ -465,7 +466,7 @@ ul li{
     .login_box input[type="text"],input[type="password"]{
         height: 30px;
         font-size: 16px;
-        width: 295px;
+        width: 355px;
         color: black;
         
         padding-left: 2%;
@@ -599,17 +600,21 @@ ul li{
         left: 291px;
         text-align: center;
     }
-    ul{
-        position: relative;
-        top: 10px;
-        padding-left: 4%;
-        left: 335px;
+     ul{
+        display: flex;
+        justify-content: center;
+        place-content: center;
+    } 
+    .language{
+        display: flex;
+        justify-content: center;
+        place-content: center;
     }
-    ul li{
+     ul li{
         display: inline;
         color: #95a0b2;
         
-    }
+    } 
     .avatar{
         margin: 0px 0px 0px 0px;
         padding:0px;
@@ -626,4 +631,3 @@ ul li{
 
 }
 
-}
